@@ -51,7 +51,7 @@ function App() {
     { name: 'JavaScript', level: 80, color: 'bg-yellow-500' },
     { name: 'React', level: 75, color: 'bg-blue-500' },
     { name: 'Node.js', level: 75, color: 'bg-green-500' },
-    { name: 'SQL', level: 65, color: 'bg-orange-500' },
+    { name: 'SQL', level: 80, color: 'bg-orange-500' },
   ];
 
   const projects = [
