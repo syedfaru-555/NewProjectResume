@@ -225,9 +225,7 @@ function App() {
             </div>
             <div className="max-w-3xl mx-auto">
               <p className="text-lg text-gray-600 leading-relaxed">
-                Passionate full-stack developer with 5+ years of experience creating beautiful, 
-                functional web applications. I specialize in React, Node.js, and modern JavaScript 
-                frameworks. I love turning complex problems into simple, beautiful, and intuitive solutions.
+                Passionate full-stack developer with 5+ years of experience creating beautiful, functional web applications. I specialize in React, Node.js, and modern JavaScript frameworks. I love turning complex problems into simple, beautiful, and intuitive solutions.
               </p>
             </div>
           </div>
