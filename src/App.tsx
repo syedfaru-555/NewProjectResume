@@ -45,22 +45,23 @@ function App() {
   };
 
   const skills = [
-    { name: 'JavaScript', level: 90, color: 'bg-yellow-500' },
-    { name: 'React', level: 85, color: 'bg-blue-500' },
-    { name: 'TypeScript', level: 80, color: 'bg-blue-600' },
+    { name: 'HTML', level: 95, color: 'bg-yellow-500' },
+    { name: 'Cascading Style Sheets', level: 90, color: 'bg-yellow-500' },
+    { name: 'JAVA', level: 85, color: 'bg-yellow-500' },
+    { name: 'JavaScript', level: 80, color: 'bg-yellow-500' },
+    { name: 'React', level: 75, color: 'bg-blue-500' },
     { name: 'Node.js', level: 75, color: 'bg-green-500' },
-    { name: 'Python', level: 70, color: 'bg-blue-400' },
     { name: 'SQL', level: 65, color: 'bg-orange-500' },
   ];
 
   const projects = [
     {
-      title: 'E-Commerce Platform',
+      title: 'Designing-Secure-Efficient-Bio-Metric-Based-Access-for-Cloud-services ',
       description: 'Full-stack e-commerce solution with React, Node.js, and MongoDB',
       image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600',
       tech: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      github: '#',
-      demo: '#'
+      github: 'https://github.com/syedfaru-555/Designing-Secure-Efficient-Bio-Metric-Based-Access-for-Cloud-services.git',
+      demo: 'designing-secure-effici-git-184c70-syed-faruk-abdullas-projects.vercel.app'
     },
     {
       title: 'Task Management App',
@@ -82,15 +83,15 @@ function App() {
 
   const certifications = [
     {
-      name: 'AWS Certified Solutions Architect',
-      issuer: 'Amazon Web Services',
-      date: '2024',
+      name: 'SQL and Relational Databases 101',
+      issuer: 'Data Base',
+      date: 'June 23, 2025',
       badge: 'https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=100'
     },
     {
-      name: 'Google Cloud Professional Developer',
-      issuer: 'Google Cloud',
-      date: '2023',
+      name: 'java full stack development',
+      issuer: 'Frontend web development',
+      date: '02-July-2024',
       badge: 'https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=100'
     },
     {
@@ -119,7 +120,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex-shrink-0">
-              <span className="text-2xl font-bold text-blue-600">Portfolio</span>
+              <span className="text-2xl font-bold text-blue-600"> My Self</span>
             </div>
             
             {/* Desktop Navigation */}
@@ -181,21 +182,21 @@ function App() {
           <div className="text-center">
             <div className="mb-8">
               <img
-                src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=300"
+                src="https://avatars.githubusercontent.com/u/201896207?s=400&u=383ec55fa8a96a7ec1d6dbd39301ab1ffbe90476&v=4"
                 alt="Profile"
                 className="w-32 h-32 rounded-full mx-auto mb-6 shadow-lg border-4 border-white"
               />
               <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4">
-                John Doe
+                Syed Faruk Abdulla
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 mb-6">
-                Full Stack Developer & UI/UX Designer
+                JAVA Full Stack Developer
               </p>
               <div className="flex justify-center space-x-6 mb-8">
-                <a href="#" className="text-blue-600 hover:text-blue-800 transition-colors">
+                <a href="https://www.linkedin.com/in/syed-faruk-abdulla-38b1a0299/" className="text-blue-600 hover:text-blue-800 transition-colors">
                   <Linkedin size={24} />
                 </a>
-                <a href="#" className="text-gray-700 hover:text-gray-900 transition-colors">
+                <a href="https://github.com/syedfaru-555" className="text-gray-700 hover:text-gray-900 transition-colors">
                   <Github size={24} />
                 </a>
                 <a href="mailto:john@example.com" className="text-blue-600 hover:text-blue-800 transition-colors">
@@ -203,14 +204,23 @@ function App() {
                 </a>
               </div>
               <div className="flex justify-center space-x-4">
+                <a href="https://drive.google.com/file/d/1q_xd95fvUTS0dHEtENtYYM2HhJd8u3Gu/view?usp=drive_link" className="text-blue-600 hover:text-blue-800 transition-colors">
                 <button className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors flex items-center space-x-2">
                   <Download size={20} />
                   <span>Download Resume</span>
                 </button>
-                <button className="border-2 border-blue-600 text-blue-600 px-6 py-3 rounded-lg hover:bg-blue-600 hover:text-white transition-colors flex items-center space-x-2">
+                 </a>
+
+
+                <a href="https://drive.google.com/file/d/1q_xd95fvUTS0dHEtENtYYM2HhJd8u3Gu/view?usp=drive_link" className="text-blue-600 hover:text-blue-800 transition-colors">
+                 <button className="border-2 border-blue-600 text-blue-600 px-6 py-3 rounded-lg hover:bg-blue-600 hover:text-white transition-colors flex items-center space-x-2">
                   <Eye size={20} />
                   <span>View Resume</span>
                 </button>
+                </a>
+               
+                
+                
               </div>
             </div>
             <div className="max-w-3xl mx-auto">
@@ -244,9 +254,9 @@ function App() {
                     </div>
                   </div>
                   <div className="ml-8 md:ml-12 bg-white p-6 rounded-lg shadow-md border-l-4 border-blue-600">
-                    <h3 className="text-xl font-semibold text-gray-900">Bachelor of Science in Computer Science</h3>
-                    <p className="text-blue-600 font-medium">University of Technology</p>
-                    <p className="text-gray-600">2018 - 2022 • GPA: 3.8/4.0</p>
+                    <h3 className="text-xl font-semibold text-gray-900">Bachelor of technology</h3>
+                    <p className="text-blue-600 font-medium">Andhra Engineering College</p>
+                    <p className="text-gray-600">2021 - 2025 • 66.75%</p>
                     <p className="text-gray-600 mt-2">
                       Relevant coursework: Data Structures, Algorithms, Web Development, Database Systems
                     </p>
@@ -260,11 +270,28 @@ function App() {
                     </div>
                   </div>
                   <div className="ml-8 md:ml-12 bg-white p-6 rounded-lg shadow-md border-l-4 border-blue-600">
-                    <h3 className="text-xl font-semibold text-gray-900">Full Stack Web Development Bootcamp</h3>
-                    <p className="text-blue-600 font-medium">Code Academy</p>
-                    <p className="text-gray-600">2022 • 6 months intensive program</p>
+                    <h3 className="text-xl font-semibold text-gray-900">XII<sup>th Standerd</sup></h3>
+                    <p className="text-blue-600 font-medium">	B S R Junior College</p>
+                    <p className="text-gray-600">2020 - 2021 • 60%</p>
                     <p className="text-gray-600 mt-2">
-                      Focused on modern web technologies: React, Node.js, MongoDB, Express
+                       Standerd, mathematical, physics and chemistry
+                    </p>
+                  </div>
+                </div>
+
+
+                 <div className="relative flex items-center">
+                  <div className="flex-shrink-0">
+                    <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
+                      <GraduationCap size={16} className="text-white" />
+                    </div>
+                  </div>
+                  <div className="ml-8 md:ml-12 bg-white p-6 rounded-lg shadow-md border-l-4 border-blue-600">
+                    <h3 className="text-xl font-semibold text-gray-900">X<sup>th</sup> Standard</h3>
+                    <p className="text-blue-600 font-medium">	Medha (E.M) Schoolss</p>
+                    <p className="text-gray-600">2018 - 2019 • CGPA: 7.8</p>
+                    <p className="text-gray-600 mt-2">
+                     
                     </p>
                   </div>
                 </div>
@@ -391,17 +418,17 @@ function App() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">Email</h3>
-                  <p className="text-gray-600">john@example.com</p>
+                  <p className="text-gray-600">Syedfarukabdulla55@gmail.com</p>
                 </div>
               </div>
               
               <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
-                  <Phone className="text-blue-600" size={20} />
+                  <Phone className="text-blue-600" size={14} />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">Phone</h3>
-                  <p className="text-gray-600">+1 (555) 123-4567</p>
+                  <p className="text-gray-600">+91 9866748613</p>
                 </div>
               </div>
               
@@ -411,49 +438,12 @@ function App() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">Location</h3>
-                  <p className="text-gray-600">San Francisco, CA</p>
+                  <p className="text-gray-600">bengaluru</p>
                 </div>
               </div>
             </div>
             
-            <form className="space-y-6">
-              <div>
-                <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name</label>
-                <input 
-                  type="text" 
-                  id="name" 
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-3 border"
-                  placeholder="Your name"
-                />
-              </div>
-              
-              <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>
-                <input 
-                  type="email" 
-                  id="email" 
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-3 border"
-                  placeholder="your@email.com"
-                />
-              </div>
-              
-              <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700">Message</label>
-                <textarea 
-                  id="message" 
-                  rows={4}
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-3 border"
-                  placeholder="Your message"
-                ></textarea>
-              </div>
-              
-              <button 
-                type="submit" 
-                className="w-full bg-blue-600 text-white py-3 px-4 rounded-md hover:bg-blue-700 transition-colors font-medium"
-              >
-                Send Message
-              </button>
-            </form>
+
           </div>
         </div>
       </section>
@@ -463,16 +453,16 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
-              <p className="text-gray-400">&copy; 2024 John Doe. All rights reserved.</p>
+              <p className="text-gray-400">Syed Faruk</p>
             </div>
             <div className="flex space-x-6">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/in/syed-faruk-abdulla-38b1a0299/" className="text-gray-400 hover:text-white transition-colors">
                 <Linkedin size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://github.com/syedfaru-555" className="text-gray-400 hover:text-white transition-colors">
                 <Github size={20} />
               </a>
-              <a href="mailto:john@example.com" className="text-gray-400 hover:text-white transition-colors">
+              <a href="mailto:syedfarukabdulla55@gmail.com" className="text-gray-400 hover:text-white transition-colors">
                 <Mail size={20} />
               </a>
             </div>
